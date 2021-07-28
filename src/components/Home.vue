@@ -3,59 +3,61 @@
     <section>
       <b-container fluid>
         <b-row>
-          <b-col cols="6" class="p-0"><img src="../assets/img-woman-lifemax.png"></b-col>
-          <b-col cols="6" class="py-5">
+          <b-col cols="12" md="6" class="p-0 img-b d-flex justify-content-center align-items-center">
+            <div class="img-woman"></div>
+          </b-col>
+          <b-col cols="12" md="6" class="py-5 d-flex align-items-center">
             <b-container>
               <b-row>
                 <b-col cols="12">
-                  <div class="logo-text w-100 d-block mx-auto">
-                    <img src="../assets/logo.png" class="d-block mx-auto">
-                    <h1 class="text-uppercase mt-3 w-50">Accesorios + servicio técnico para dispositivos móviles</h1>
+                  <div class="logo-text d-flex flex-column align-items-center mx-auto">
+                    <img src="../assets/logo.png">
+                    <h1 class="text-uppercase mt-3 text-lg-right text-center">Accesorios + servicio técnico para dispositivos móviles</h1>
                   </div>
                 </b-col>
                 <b-col cols="12">
-                  <h2 class="py-3 text-center">Buscamos proteger, mejorar y prolongar la vida de cualquier dispositivo móvil</h2>
+                  <h2 class="py-4 text-center">Buscamos proteger, mejorar y prolongar la vida de cualquier dispositivo móvil</h2>
                 </b-col>
-                <b-row class="py-3">
-                  <b-col cols="6">
+                <b-row class="py-4 no-gutters">
+                  <b-col cols="12" md="6">
                     <a class="d-flex btn-rrss" href="">
-                      <div class="btn-rrss-icon">Sitio Web</div>
-                      <div class="ps-3"><i class="fas fa-globe"></i></div>
+                      <div class="btn-rrss-icon ov-btn-grow-skew">Sitio Web</div>
+                      <div class="iconos"><i class="fas fa-globe"></i></div>
                     </a>
                   </b-col>
-                  <b-col cols="6">
+                  <b-col cols="12" md="6">
                     <a class="d-flex btn-rrss" href="">
-                      <div class="btn-rrss-icon">WhatsApp</div>
-                      <div class="ps-3"><i class="fab fa-whatsapp"></i></div>
+                      <div class="btn-rrss-icon ov-btn-grow-skew">WhatsApp</div>
+                      <div class="iconos"><i class="fab fa-whatsapp"></i></div>
                     </a>
                   </b-col>
-                  <b-col cols="6">
+                  <b-col cols="12" md="6">
                     <a class="d-flex btn-rrss" href="">
-                      <div class="btn-rrss-icon">Facebook</div>
-                      <div class="ps-3"><i class="fab fa-facebook-f"></i></div>
+                      <div class="btn-rrss-icon ov-btn-grow-skew">Facebook</div>
+                      <div class="iconos"><i class="fab fa-facebook-f"></i></div>
                     </a>
                   </b-col>
-                  <b-col cols="6">
+                  <b-col cols="12" md="6">
                     <a class="d-flex btn-rrss" href="">
-                      <div class="btn-rrss-icon">Instagram</div>
-                      <div class="ps-3"><i class="fab fa-instagram"></i></div>
+                      <div class="btn-rrss-icon ov-btn-grow-skew">Instagram</div>
+                      <div class="iconos"><i class="fab fa-instagram"></i></div>
                     </a>
                   </b-col>
-                   <b-col cols="6">
+                   <b-col cols="12" md="6">
                     <a class="d-flex btn-rrss" href="">
-                      <div class="btn-rrss-icon">TikTok</div>
-                      <div class="ps-3"><i class="fab fa-tiktok"></i></div>
+                      <div class="btn-rrss-icon ov-btn-grow-skew">TikTok</div>
+                      <div class="iconos"><i class="fab fa-tiktok"></i></div>
                     </a>
                   </b-col>
-                   <b-col cols="6">
+                   <b-col cols="12" md="6">
                     <a class="d-flex btn-rrss" href="">
-                      <div class="btn-rrss-icon">Email</div>
-                      <div class="ps-3"><i class="far fa-envelope"></i></div>
+                      <div class="btn-rrss-icon ov-btn-grow-skew">Email</div>
+                      <div class="iconos"><i class="far fa-envelope"></i></div>
                     </a>
                   </b-col>
                 </b-row>
               </b-row>
-              <b-row>
+              <b-row class="pt-4">
                 <b-col cols="12">
                   <div class="d-flex justify-content-center">
                     <i class="fas fa-map-marker-alt"></i>
@@ -80,5 +82,4 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 
