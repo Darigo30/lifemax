@@ -20,44 +20,50 @@
                 </b-col>
                 <b-row class="py-4 no-gutters">
                   <b-col cols="12" md="6">
-                    <a class="d-flex btn-rrss" href="">
+                    <a class="d-flex btn-rrss" href="https://www.lifemaxstore.cl" target="_blank">
                       <div class="btn-rrss-icon ov-btn-grow-skew">Sitio Web</div>
                       <div class="iconos"><i class="fas fa-globe"></i></div>
                     </a>
                   </b-col>
                   <b-col cols="12" md="6">
-                    <a class="d-flex btn-rrss" href="">
-                      <div class="btn-rrss-icon ov-btn-grow-skew">WhatsApp</div>
+                    <a class="d-flex btn-rrss" href="https://wa.me/56966263774" target="_blank">
+                      <div class="btn-rrss-icon ov-btn-grow-skew">Ventas Detalle</div>
                       <div class="iconos"><i class="fab fa-whatsapp"></i></div>
                     </a>
                   </b-col>
                   <b-col cols="12" md="6">
-                    <a class="d-flex btn-rrss" href="">
+                    <a class="d-flex btn-rrss" href="https://wa.me/message/ZJ6JGUXRFXXRP1" target="_blank">
+                      <div class="btn-rrss-icon ov-btn-grow-skew">Ventas Mayor</div>
+                      <div class="iconos"><i class="fab fa-whatsapp"></i></div>
+                    </a>
+                  </b-col>
+                  <b-col cols="12" md="6">
+                    <a class="d-flex btn-rrss" href="https://www.facebook.com/lifemax.cl" target="_blank">
                       <div class="btn-rrss-icon ov-btn-grow-skew">Facebook</div>
                       <div class="iconos"><i class="fab fa-facebook-f"></i></div>
                     </a>
                   </b-col>
                   <b-col cols="12" md="6">
-                    <a class="d-flex btn-rrss" href="">
+                    <a class="d-flex btn-rrss" href="https://www.instagram.com/lifemax.cl/?igshid=8i55gwoo9do2" target="_blank">
                       <div class="btn-rrss-icon ov-btn-grow-skew">Instagram</div>
                       <div class="iconos"><i class="fab fa-instagram"></i></div>
                     </a>
                   </b-col>
                    <b-col cols="12" md="6">
-                    <a class="d-flex btn-rrss" href="">
+                    <a class="d-flex btn-rrss" href="#">
                       <div class="btn-rrss-icon ov-btn-grow-skew">TikTok</div>
                       <div class="iconos"><i class="fab fa-tiktok"></i></div>
                     </a>
                   </b-col>
-                   <b-col cols="12" md="6">
-                    <a class="d-flex btn-rrss" href="">
+                   <b-col cols="12" md="12">
+                    <a class="d-flex btn-rrss" href="mailto:ventas@lifemaxstore.cl">
                       <div class="btn-rrss-icon ov-btn-grow-skew">Email</div>
                       <div class="iconos"><i class="far fa-envelope"></i></div>
                     </a>
                   </b-col>
                 </b-row>
               </b-row>
-              <b-row class="pt-4">
+              <b-row>
                 <b-col cols="12">
                   <div class="d-flex justify-content-center">
                     <i class="fas fa-map-marker-alt"></i>
