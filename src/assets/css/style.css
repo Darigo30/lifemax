@@ -5,19 +5,42 @@
 
 /*Fonts*/
 
-@font-face {
+ @font-face {
+  font-family: 'Borda DemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Borda DemiBold'), url('../fonts/Borda_DemiBold.woff2') format('woff2');
+  } 
+ @font-face {
   font-family: 'Borda Regular 12';
   font-style: normal;
   font-weight: normal;
-  src: local('Borda Regular 12'), url('/lifemax/src/assets/fonts/ Medium.woff') format('woff');
-  }
-@font-face {
-  font-family: 'Borda Regular 3';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Borda Regular 3'), url('/lifemax/src/assets/fonts/Borda DemiBold.woff') format('woff');
-  }
+  src: local('Borda Regular 12'), url('../fonts/Borda_Medium.woff2') format('woff2');
+  } 
+  /*
+ @font-face {
+  font-family: 'Borda DemiBold';
+  src: local('Borda DemiBold'),
+        url('/lifemax/src/assets/fonts/Borda DemiBold.woff') format('woff')
+        url('/lifemax/src/assets/fonts/Borda+DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/lifemax/src/assets/fonts/Borda+DemiBold.svg#Borda%20DemiBold') format('svg'),
+        url('/lifemax/src/assets/fonts/Borda+DemiBold.woff2') format('woff2'),
+        url('/lifemax/src/assets/fonts/Borda+DemiBold.ttf') format('truetype'),
+        url('/lifemax/src/assets/fonts/Borda+DemiBold.woff') format('woff'),
+        url('/lifemax/src/assets/fonts/fonts/Borda+DemiBold.otf') format('otf');
 
+  } */
+  /* @font-face {
+    font-family: 'Borda DemiBold';
+    src: url(Borda+DemiBold.eot);
+    src: url(Borda+DemiBold.eot?#iefix) format('embedded-opentype'),
+         url(Borda+DemiBold.svg#Borda%20DemiBold) format('svg'),
+         url(Borda+DemiBold.woff2) format('woff2'),
+         url(Borda+DemiBold.ttf) format('truetype'),
+         url(Borda+DemiBold.woff) format('woff'),
+         url(fonts/Borda+DemiBold.otf) format('otf');
+  } */
+  
 /*Basics*/
 
 body{
@@ -37,7 +60,7 @@ body{
   }
   h1, h2, a{
     font-size: 1.25rem;
-    font-family: 'Borda Regular 3';
+    font-family: 'Borda DemiBold';
   }
   h2{
     font-size: 1.30rem;
