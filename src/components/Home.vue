@@ -65,7 +65,7 @@
               </b-row>
               <b-row>
                 <b-col cols="12">
-                  <div class="d-flex justify-content-center">
+                  <div class="d-flex justify-content-center align-items-center">
                     <i class="fas fa-map-marker-alt"></i>
                     <a href="https://www.google.com/maps/place/LifeMax+-+Accesorios+%2B+Servicio+Tecnico+Celulares/@-33.4466041,-70.6529295,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5e0bff76e9f:0xae2f1f634db6247f!8m2!3d-33.4466033!4d-70.650731" target="_blank" class="ms-2">Santiago de Chile</a>
                   </div>
