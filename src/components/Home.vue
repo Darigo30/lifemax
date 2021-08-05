@@ -18,7 +18,7 @@
                 <b-col cols="12">
                   <h2 class="py-4 text-center">Buscamos proteger, mejorar y prolongar la vida de cualquier dispositivo móvil</h2>
                 </b-col>
-                <b-row class="py-4 no-gutters">
+                <b-row class="pt-4 no-gutters">
                   <b-col cols="12" md="6">
                     <a class="d-flex btn-rrss" href="https://www.lifemaxstore.cl" target="_blank">
                       <div class="btn-rrss-icon ov-btn-grow-skew">Sitio Web</div>
@@ -38,7 +38,7 @@
                     </a>
                   </b-col>
                   <b-col cols="12" md="6">
-                    <a class="d-flex btn-rrss" href="https://www.facebook.com/lifemax.cl" target="_blank">
+                    <a class="d-flex btn-rrss" href="https://www.facebook.com/lifemax.cll/" target="_blank">
                       <div class="btn-rrss-icon ov-btn-grow-skew">Facebook</div>
                       <div class="iconos"><i class="fab fa-facebook-f"></i></div>
                     </a>
@@ -67,11 +67,11 @@
                 <b-col cols="12">
                   <div class="d-flex justify-content-center">
                     <i class="fas fa-map-marker-alt"></i>
-                    <p class="ms-2">Santiago de Chile</p>
+                    <a href="https://www.google.com/maps/place/LifeMax+-+Accesorios+%2B+Servicio+Tecnico+Celulares/@-33.4466041,-70.6529295,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5e0bff76e9f:0xae2f1f634db6247f!8m2!3d-33.4466033!4d-70.650731" target="_blank" class="ms-2">Santiago de Chile</a>
                   </div>
                 </b-col>
                 <b-col cols="12">
-                  <div class="text-center">Copyright © 2021. Todos los derechos reservados</div>
+                  <div class="text-center pt-3">Copyright © 2019. Todos los derechos reservados</div>
                 </b-col>
               </b-row>
             </b-container>
