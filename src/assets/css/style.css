@@ -25,7 +25,6 @@ body{
     background-color: var(--bg-color);
     font-size: 1.125rem;
     color: var(--color-blanco);
-    overflow-y: hidden;
     font-family: 'Borda Regular 12';
   }
   a{
@@ -106,8 +105,10 @@ body{
     max-width: 80%;
   }
   .img-woman{
-    background: url(../img-woman-lifemax.png) center no-repeat;
+    background-image: url(../img-woman-lifemax.png);
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
   }
@@ -152,5 +153,8 @@ body{
     }
     .btn-rrss-icon{
       font-size: 1.125rem;
+    }
+    .log-t-i{
+      padding: 20px 0;
     }
   }

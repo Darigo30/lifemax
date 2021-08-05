@@ -6,7 +6,7 @@
           <b-col cols="12" md="6" class="p-0 img-b d-flex justify-content-center align-items-center">
             <div class="img-woman"></div>
           </b-col>
-          <b-col cols="12" md="6" class="py-5 d-flex align-items-center">
+          <b-col cols="12" md="6" class="d-flex align-items-center log-t-i">
             <b-container>
               <b-row>
                 <b-col cols="12">
