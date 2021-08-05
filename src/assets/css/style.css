@@ -1,160 +1,169 @@
 :root {
-    --bg-color: #7e00ff;
-    --color-blanco: #fff;
-  }
+  --bg-color: #7e00ff;
+  --color-blanco: #fff;
+}
 
 /*Fonts*/
 
- @font-face {
-  font-family: 'Borda DemiBold';
+@font-face {
+  font-family: "Borda DemiBold";
   font-style: normal;
   font-weight: normal;
-  src: local('Borda DemiBold'), url('../fonts/Borda_DemiBold.woff2') format('woff2');
-  } 
- @font-face {
-  font-family: 'Borda Regular 12';
+  src: local("Borda DemiBold"),
+    url("../fonts/Borda_DemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Borda Regular 12";
   font-style: normal;
   font-weight: normal;
-  src: local('Borda Regular 12'), url('../fonts/Borda_Medium.woff2') format('woff2');
-  } 
-  
+  src: local("Borda Regular 12"),
+    url("../fonts/Borda_Medium.woff2") format("woff2");
+}
+
 /*Basics*/
+.alto-min {
+  min-height: 100vh;
+}
 
-body{
-    box-sizing: border-box;
-    background-color: var(--bg-color);
+body {
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  font-size: 1.125rem;
+  color: var(--color-blanco);
+  font-family: "Borda Regular 12";
+  min-height: 100vh;
+}
+a {
+  color: var(--color-blanco);
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+h1,
+h2,
+a {
+  font-size: 1.25rem;
+  font-family: "Borda DemiBold";
+}
+h2 {
+  font-size: 1.3rem;
+}
+
+/*Buttons*/
+
+.btn-rrss {
+  border: 1px solid var(--color-blanco);
+  border-radius: 25px;
+  padding: 0px 10px 0 0;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.btn-rrss:hover {
+  color: #2dd3e6;
+}
+.btn-rrss-icon {
+  padding: 8px;
+  border-right: 1px solid white;
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 1.563rem;
+  box-shadow: rgba(255, 255, 255, 0.2) 2.95px -0.05px 2.6px;
+}
+.iconos {
+  padding: 8px;
+}
+.ov-btn-grow-skew {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.ov-btn-grow-skew:hover {
+  color: #fff;
+}
+.ov-btn-grow-skew::after {
+  content: "";
+  background: #2dd3e6;
+  position: absolute;
+  z-index: -1;
+  padding: 0;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s ease;
+}
+.ov-btn-grow-skew:hover::after {
+  transition: all 0.5s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+.svg-inline--fa {
+  font-size: 1.563rem;
+}
+/*Images + textos */
+.img-b {
+  height: 100vh;
+}
+.logo-text {
+  max-width: 80%;
+}
+.img-woman {
+  background-image: url(../img-woman-lifemax.png);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/*Medias Querys*/
+@media (max-width: 1199px) {
+  .btn-rrss-icon {
+    font-size: 0.938rem;
+    padding: 0.75rem;
+  }
+}
+@media (max-width: 991px) {
+  .logo-text img {
+    width: 15rem;
+  }
+  .btn-rrss-icon {
+    padding: 0.688rem;
+    font-size: 0.688rem;
+  }
+  .svg-inline--fa {
+    font-size: 0.938rem;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    overflow-y: scroll;
+  }
+  h1,
+  h2 {
+    font-size: 0.938rem;
+  }
+  .img-b {
+    height: 50vh;
+  }
+  .logo-text img {
+    width: 13rem;
+  }
+  .row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .btn-rrss-icon {
     font-size: 1.125rem;
-    color: var(--color-blanco);
-    font-family: 'Borda Regular 12';
   }
-  a{
-    color: var(--color-blanco);
-    text-decoration: none;
+  .log-t-i {
+    padding: 20px 0;
   }
-  a:hover{
-    color: #fff;
-  }
-  h1, h2, a{
-    font-size: 1.25rem;
-    font-family: 'Borda DemiBold';
-  }
-  h2{
-    font-size: 1.30rem;
-  }
-  
-  /*Buttons*/
-
-  .btn-rrss{
-    border: 1px solid var(--color-blanco);
-    border-radius: 25px;
-    padding: 0px 10px 0 0;
-    justify-content: space-between;
-    text-decoration: none;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .btn-rrss:hover{
-    color: #2dd3e6;
-  }
-  .btn-rrss-icon{
-    padding: 8px;
-    border-right: 1px solid white;
-    width: 100%;
-    border-radius: 25px;
-    text-align: center;
-    font-size: 1.563rem;
-    box-shadow: rgba(255, 255, 255, 0.2) 2.95px -0.05px 2.6px;
-  }
-  .iconos{
-    padding: 8px;
-  }
-  .ov-btn-grow-skew{
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
-  .ov-btn-grow-skew:hover {
-    color: #fff;
-  }
-  .ov-btn-grow-skew::after {
-    content: "";
-    background: #2dd3e6;
-    position: absolute;
-    z-index: -1;
-    padding: 0;
-    display: block;
-    left: -20%;
-    right: -20%;
-    top: 0;
-    bottom: 0;
-    transform: skewX(-45deg) scale(0, 1);
-    transition: all 0.5s ease;
-  }
-  .ov-btn-grow-skew:hover::after {
-    transition: all 0.5s ease-out;
-    transform: skewX(-45deg) scale(1, 1);
-  }
-  .svg-inline--fa{
-    font-size: 1.563rem;
-  }
-  /*Images + textos */
-  .img-b{
-    height: 100vh;
-  }
-  .logo-text{
-    max-width: 80%;
-  }
-  .img-woman{
-    background-image: url(../img-woman-lifemax.png);
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-  }
-
-  /*Medias Querys*/
-  @media(max-width: 1199px){
-    .btn-rrss-icon{
-      font-size: 0.938rem;
-      padding: 0.75rem;
-    } 
-  }
-  @media (max-width: 991px) {
-    .logo-text img {
-      width: 15rem;
-    }
-    .btn-rrss-icon{
-      padding: 0.688rem;
-      font-size: 0.688rem;
-    }
-    .svg-inline--fa{
-      font-size: 0.938rem;
-    }
-  }
-  @media (max-width: 767px) {
-    body{
-      overflow-y: scroll;
-    }
-    h1,h2{
-      font-size: 0.938rem;
-    }
-    .img-b {
-      height: 50vh;
-    }
-    .logo-text img {
-      width: 13rem;
-    }
-    .row.no-gutters {
-      margin-right: 0;
-      margin-left: 0;
-      padding-right: 0;
-      padding-left: 0;
-    }
-    .btn-rrss-icon{
-      font-size: 1.125rem;
-    }
-    .log-t-i{
-      padding: 20px 0;
-    }
-  }
+}
