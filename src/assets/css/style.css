@@ -166,4 +166,7 @@ h2 {
   .log-t-i {
     padding: 20px 0;
   }
+  .alto-min {
+    min-height: 50vh;
+  }
 }
