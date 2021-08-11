@@ -1,6 +1,9 @@
 :root {
   --bg-color: #7e00ff;
   --color-blanco: #fff;
+  --color-rojo: #ff0000;
+  --color-azul: #2dd3e6;
+  --color-gris: #B0C2D1;
 }
 
 /*Fonts*/
@@ -52,7 +55,7 @@ h2 {
 
 /*Buttons*/
 
-.btn-rrss {
+.btn-rrss, .btn-rrss-modal {
   border: 1px solid var(--color-blanco);
   border-radius: 25px;
   padding: 0px 10px 0 0;
@@ -60,6 +63,26 @@ h2 {
   text-decoration: none;
   align-items: center;
   margin-bottom: 30px;
+}
+.btn-rrss-modal{
+  background: #5F4B9A;
+  border: none;
+}
+.modal-title{
+  color:var(--color-gris);
+  font-size: 30px;
+}
+.close {
+  background: #ff0000;
+  border: none;
+  border-radius: 25px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 35px;
 }
 .btn-rrss:hover {
   color: #2dd3e6;
