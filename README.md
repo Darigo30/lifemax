@@ -1,5 +1,5 @@
 # lifemax
-
+Link: https://lifemaxinsta.web.app/
 ## Project setup
 ```
 npm install
