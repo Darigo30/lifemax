@@ -26,7 +26,7 @@
             <b-row class="pt-4 no-gutters">
               <b-col cols="12" md="6">
                 <a class="d-flex btn-rrss" v-b-modal.modal-center>
-                  <div class="btn-rrss-icon ov-btn-grow-skew">Sitio Web</div>
+                  <div class="btn-rrss-icon ov-btn-grow-skew">Sitios Web</div>
                   <div class="iconos"><i class="fas fa-globe"></i></div>
                 </a>
               </b-col>
@@ -61,20 +61,8 @@
                 </a>
               </b-col>
               <b-col cols="12" md="6">
-                <a class="d-flex btn-rrss" href="https://eshops.mercadolibre.cl/lifemax" target="_blank">
-                  <div class="btn-rrss-icon ov-btn-grow-skew">Mercado Libre</div>
-                  <div class="iconos"><i class="fas fa-store"></i></div>
-                </a>
-              </b-col>
-              <b-col cols="12" md="6">
-                <a class="d-flex btn-rrss" href="https://www.linio.cl/s/lifemax-" target="_blank">
-                  <div class="btn-rrss-icon ov-btn-grow-skew">Linio</div>
-                  <div class="iconos"><i class="fas fa-store"></i></div>
-                </a>
-              </b-col>
-              <b-col cols="12" md="6">
-                <a class="d-flex btn-rrss" href="https://lifemax.mercadoshops.cl/" target="_blank">
-                  <div class="btn-rrss-icon ov-btn-grow-skew">MercadoShop</div>
+                <a class="d-flex btn-rrss" v-b-modal.modal-tiendasof>
+                  <div class="btn-rrss-icon ov-btn-grow-skew">Tiendas Oficiales</div>
                   <div class="iconos"><i class="fas fa-store"></i></div>
                 </a>
               </b-col>
@@ -118,11 +106,11 @@
     <b-modal id="modal-center" v-bind:hide-footer="true" class="titlemodal" centered title="Sitios Web">
       <div class="my-4">
         <a class="d-flex btn-rrss-modal" href="https://www.lifemaxstore.cl" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Ventas Detalle</div>
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Ventas Detalle</div>
           <div class="iconos"><i class="fas fa-globe"></i></div>
         </a>
         <a class="d-flex btn-rrss-modal" href="https://www.lifemaxdistribuidora.cl" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Ventas Mayoristas</div>
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Ventas Mayoristas</div>
           <div class="iconos"><i class="fas fa-globe"></i></div>
         </a>
       </div>
@@ -131,11 +119,11 @@
     <b-modal id="modal-whats" v-bind:hide-footer="true" class="titlemodal" centered title="WhatsApp">
       <div class="my-4">
         <a class="d-flex btn-rrss-modal" href="https://wa.me/56966263774" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Ventas Detalle</div>
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Ventas Detalle</div>
           <div class="iconos"><i class="fab fa-whatsapp"></i></div>
         </a>
         <a class="d-flex btn-rrss-modal" href="https://wa.me/message/ZJ6JGUXRFXXRP1" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Ventas Mayor</div>
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Ventas Mayor</div>
           <div class="iconos"><i class="fab fa-whatsapp"></i></div>
         </a>
       </div>
@@ -143,31 +131,67 @@
     <!-- Modal Sucursales-->
     <b-modal id="modal-surc" v-bind:hide-footer="true" class="titlemodal" centered title="Sucursales">
       <div class="my-4">
+        <div class="d-flex btn-rrss-modal" href="#" target="_blank" style="cursor: pointer;">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">San Diego 144, L2, Santiago, Región Metropolitana</div>
+          <div class="iconos"><i class="fas fa-map-marked-alt"></i></div>
+        </div>
         <a class="d-flex btn-rrss-modal" href="https://www.google.com/maps/place/LifeMax+-+Accesorios+%2B+Servicio+Tecnico+Celulares/@-33.4466041,-70.6529295,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5e0bff76e9f:0xae2f1f634db6247f!8m2!3d-33.4466033!4d-70.650731" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Matriz</div>
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">San Diego 144, Local 15, Santiago, Región Metropolitana</div>
           <div class="iconos"><i class="fas fa-map-marked-alt"></i></div>
         </a>
-        <a class="d-flex btn-rrss-modal" href="https://www.google.com/maps/place/LifeMax+-+Accesorios+%2B+Servicio+Tecnico+Celulares/@-33.4466041,-70.6529295,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5e0bff76e9f:0xae2f1f634db6247f!8m2!3d-33.4466033!4d-70.650731" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Sucursal</div>
-          <div class="iconos"><i class="fas fa-map-marked-alt"></i></div>
+        
+      </div>
+    </b-modal>
+    <!-- Modal Tiendas Oficiales-->
+    <b-modal id="modal-tiendasof" v-bind:hide-footer="true" class="titlemodal" centered title="Tiendas Oficiales LifeMax*">
+      <div class="my-4">
+        <a class="d-flex btn-rrss-modal" href="https://eshops.mercadolibre.cl/lifemax" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Mercado Libre</div>
+          <div class="iconos"><i class="fas fa-store"></i></div>
         </a>
+        <a class="d-flex btn-rrss-modal" href="https://www.linio.cl/s/lifemax-" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Linio</div>
+          <div class="iconos"><i class="fas fa-store"></i></div>
+        </a>
+        <a class="d-flex btn-rrss-modal" href="https://lifemax.mercadoshops.cl/" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Mercadoshops</div>
+          <div class="iconos"><i class="fas fa-store"></i></div>
+        </a>
+        <a class="d-flex btn-rrss-modal" href="https://www.pedidosya.cl/restaurant-menu/lifemax" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Pedidos Ya</div>
+          <div class="iconos"><i class="fas fa-store"></i></div>
+        </a>
+        <a class="d-flex btn-rrss-modal" href="#" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Falabella</div>
+          <div class="iconos"><i class="fas fa-store"></i></div>
+        </a>
+        <a class="d-flex btn-rrss-modal" href="https://simple.ripley.cl/tienda/lifemax-7000" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Ripley</div>
+          <div class="iconos"><i class="fas fa-store"></i></div>
+        </a>
+        <a class="d-flex btn-rrss-modal" href="#" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Sodimac</div>
+          <div class="iconos"><i class="fas fa-store"></i></div>
+        </a>
+        
       </div>
     </b-modal>
     <!-- Modal Catálogo de productos-->
     <b-modal id="modal-catal" v-bind:hide-footer="true" class="titlemodal" centered title="Catálogo de Productos">
       <div class="my-4">
-        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/catalagodeRepuestoLifemax.pdf" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Repuestos</div>
+        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalagodeRepuestoSINPRECIOS.pdf" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Repuestos de Celulares</div>
           <div class="iconos"><i class="fas fa-file-pdf"></i></div>
         </a>
-        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/catalogoaccesorioslifemax.pdf" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Accesorios</div>
+        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalogoComputacionSIN%20PRECIOS.pdf" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Computación</div>
           <div class="iconos"><i class="fas fa-file-pdf"></i></div>
         </a>
-        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/cataalogo-computacion-lifemax.pdf" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew">Computación</div>
+        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalogoAccesoriosSINPRECIOS.pdf" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Accesorios de Celulares</div>
           <div class="iconos"><i class="fas fa-file-pdf"></i></div>
         </a>
+        <p class="text-center fw-bold">**Si tienes tienda o eres técnico y quieres nuestros catálogos con costos, comunícate vía WhatssApp Mayoristas**</p>
       </div>
     </b-modal>
   </b-container>

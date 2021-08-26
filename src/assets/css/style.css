@@ -64,13 +64,14 @@ h2 {
   align-items: center;
   margin-bottom: 30px;
 }
-.btn-rrss-modal{
-  background: #5F4B9A;
-  border: none;
-}
+
 .modal-title{
-  color:var(--color-gris);
+  color:var(--color-azul);
   font-size: 30px;
+}
+
+.modal-body{
+  background: var(--color-azul);
 }
 .close {
   background: #ff0000;
@@ -107,7 +108,8 @@ h2 {
 .ov-btn-grow-skew:hover {
   color: #fff;
 }
-.ov-btn-grow-skew::after {
+.ov-btn-grow-skew::after,
+.ov-btn-mod::after{
   content: "";
   background: #2dd3e6;
   position: absolute;
@@ -120,6 +122,9 @@ h2 {
   bottom: 0;
   transform: skewX(-45deg) scale(0, 1);
   transition: all 0.5s ease;
+}
+.ov-btn-mod::after{
+  background: #36cadb;
 }
 .ov-btn-grow-skew:hover::after {
   transition: all 0.5s ease-out;
