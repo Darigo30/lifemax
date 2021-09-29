@@ -55,7 +55,7 @@
                 </a>
               </b-col>
               <b-col cols="12" md="6">
-                <a class="d-flex btn-rrss" href="#">
+                <a class="d-flex btn-rrss" href="https://vm.tiktok.com/ZMRsfD21S/">
                   <div class="btn-rrss-icon ov-btn-grow-skew">TikTok</div>
                   <div class="iconos"><i class="fab fa-tiktok"></i></div>
                 </a>
