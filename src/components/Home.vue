@@ -179,16 +179,20 @@
     <!-- Modal Catálogo de productos-->
     <b-modal id="modal-catal" v-bind:hide-footer="true" class="titlemodal" centered title="Catálogo de Productos">
       <div class="my-4">
-        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalagodeRepuestoSINPRECIOS.pdf" target="_blank">
+        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalagodeRepuestoSINPRECIOS3_12_21.pdf" target="_blank">
           <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Repuestos de Celulares</div>
           <div class="iconos"><i class="fas fa-file-pdf"></i></div>
         </a>
-        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalogoComputacionSIN%20PRECIOS.pdf" target="_blank">
+        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalogoComputacionSINPRECIOS3_12_21.pdf" target="_blank">
           <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Computación</div>
           <div class="iconos"><i class="fas fa-file-pdf"></i></div>
         </a>
-        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalogoAccesoriosSINPRECIOS.pdf" target="_blank">
+        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalogoAccesoriosSINPRECIOS3_12_21.pdf" target="_blank">
           <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Accesorios de Celulares</div>
+          <div class="iconos"><i class="fas fa-file-pdf"></i></div>
+        </a>
+        <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/CatalogoGamerSINPRECIO3_12_21.pdf" target="_blank">
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Gamer</div>
           <div class="iconos"><i class="fas fa-file-pdf"></i></div>
         </a>
         <p class="text-center fw-bold">**Si tienes tienda o eres técnico y quieres nuestros catálogos con costos, comunícate vía WhatssApp Mayoristas**</p>
