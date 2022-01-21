@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/lifemaxstore/public_html/test/
+    - export DEPLOYPATH=/home/lifemaxstore/public_html/
     - /bin/cp -R dist $DEPLOYPATH
