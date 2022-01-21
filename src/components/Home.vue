@@ -192,7 +192,7 @@
           <div class="iconos"><i class="fas fa-file-pdf"></i></div>
         </a>
         <a class="d-flex btn-rrss-modal" href="http://lifemax-store.cl/archivos/2022/01/Catalogo_Gamer_SIN_PRECIO_21012022.pdf" target="_blank">
-          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">GAMER</div>
+          <div class="btn-rrss-icon ov-btn-grow-skew ov-btn-mod">Gamer</div>
           <div class="iconos"><i class="fas fa-file-pdf"></i></div>
         </a>
         <p class="text-center fw-bold">**Si tienes tienda o eres técnico y quieres nuestros catálogos con costos, comunícate vía WhatssApp Mayoristas**</p>
