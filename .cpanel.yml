@@ -2,10 +2,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/lifemaxstore/public_html/
-    - /bin/cp -R dist/css $DEPLOYPATH
-    - /bin/cp -R dist/font $DEPLOYPATH
-    - /bin/cp -R dist/img $DEPLOYPATH
-    - /bin/cp -R dist/js $DEPLOYPATH
+    #- /bin/cp -R dist/css $DEPLOYPATH
+    #- /bin/cp -R dist/font $DEPLOYPATH
+    #- /bin/cp -R dist/img $DEPLOYPATH
+    #- /bin/cp -R dist/js $DEPLOYPATH
     - /bin/cp dist/favicon.ico $DEPLOYPATH
     - /bin/cp dist/favicon.png $DEPLOYPATH
     - /bin/cp dist/index.html $DEPLOYPATH
