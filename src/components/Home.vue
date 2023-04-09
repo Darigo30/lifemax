@@ -72,7 +72,7 @@
                   <div class="iconos"><i class="far fa-envelope"></i></div>
                 </a>
               </b-col>
-              <b-col cols="12" md="12">
+              <b-col cols="12" md="12" class="d-none">
                 <a class="d-flex btn-rrss" v-b-modal.modal-catal>
                   <div class="btn-rrss-icon ov-btn-grow-skew">Catálogo de Productos</div>
                   <div class="iconos"><i class="fas fa-file-pdf"></i></div>

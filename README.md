@@ -4,6 +4,8 @@ Link: https://lifemaxinsta.web.app/
 ```
 npm install
 ```
+### NodeJS Version
+16-lts
 
 ### Compiles and hot-reloads for development
 ```
